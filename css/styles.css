@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Cpath fill='%23fff' d='M33 29.2c1.2.4 2.5.1 3.4-.8 1.3-1.3 1.3-3.5 0-4.8s-3.5-1.3-4.8 0l-17.6-17.8c1.3-1.4 1.3-3.5 0-4.8s-3.5-1.3-4.8 0c-.9.9-1.2 2.3-.8 3.4-1.1-.4-2.4-.1-3.4.8-1.3 1.3-1.3 3.5 0 4.8 1.2 1.2 3.1 1.3 4.4.3l17.8 17.9c-1 1.3-.9 3.2.3 4.4 1.3 1.3 3.5 1.3 4.8 0 .9-.9 1.1-2.2.7-3.4zM33.1 45.7c-1.3-1-3.2-.9-4.4.3-1.1 1.1-1.3 2.7-.6 4h9.9l12-12.1v-9.2l-16.9 17zM37.6 0h-9.8c.2.3.3.6.6.8.9.9 2.3 1.2 3.4.8-.4 1.2-.1 2.5.8 3.4 1.3 1.3 3.5 1.3 4.8 0s1.3-3.5 0-4.8l.2-.2zM10.3 27.6c-.9-.9-2.3-1.2-3.4-.8.3-1.1.1-2.5-.9-3.4-1.3-1.3-3.5-1.3-4.8 0-1.2 1.2-1.3 3.1-.3 4.4l-.9 1v9.2l5.5-5.5c1.3 1.3 3.5 1.3 4.8 0 1.3-1.4 1.3-3.6 0-4.9z'/%3E%3C/svg%3E");
+}
+
+#container {
+  max-width: 960px;
+  width: 80%;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #111;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 33%;
+  padding-left: 5%;
+  padding-top: 0.5%;
+}
+
+.main-nav p {
+  font-weight: bold;
+  color: #63adf2;
+}
+
+.main-nav img {
+  padding-top: 8%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  transform-origin: 50% 50%;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
